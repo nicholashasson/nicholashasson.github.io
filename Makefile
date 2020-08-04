@@ -8,7 +8,7 @@ all: cv serve
 
 cv:
 	cd $(CV_DIR) && make all
-	cp $(addprefix $(CV_DIR)/,$(PDF)) Toney_CV.pdf
+	cp $(addprefix $(CV_DIR)/,$(PDF)) Hasson_CV.pdf
 	cp $(addprefix $(CV_DIR)/,$(HTML)) $(addprefix $(INCLUDE_DIR)/,$(HTML))
 	cd $(CV_DIR) && make clean
 
